@@ -1,6 +1,12 @@
-let a = prompt ("Ismiz nima?")
-let b = prompt ("Yoshiz nechida?")
-let c = prompt ("Kaysi maktabta oqiysiz?")
-let d = prompt ("Siz nechinchi sinfda oqiysiz?")
 
-console .log(a,b,c,d)
+
+
+let a=prompt("Ismiz nima")
+alert(`siz kiritgan ${a}  ${typeof a}
+`)
+let b=+prompt("Yoshiz nechida")
+alert(`siz kiritgan ${b} ${typeof b}      
+`)
+let c=( Boolean( prompt( "Boolean malumot kiriting") ) )
+alert(`siz kiritgan ${c} ${typeof c}
+`)
